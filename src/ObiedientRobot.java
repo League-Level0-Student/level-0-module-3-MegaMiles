@@ -1,4 +1,4 @@
-package _09_robot_walk_of_fame;
+
 
 import java.awt.Color;
 
