@@ -7,16 +7,18 @@ if (fork.equals("right")){
 String man = JOptionPane.showInputDialog("you continue walking and then you see a man do you run or fight him?");
 if (man.equals("fight")){
 JOptionPane.showMessageDialog(null,"End of your Adventure Try again(sad ending) ");
-
+if (man.equals("run")) {
+	JOptionPane.showMessageDialog(null,"You run so fast you run off a clif(sad ending) ");	
+}
 }
 else {
 	JOptionPane.showInputDialog(null,"you barley escape,End of adventure Try again(happy ending) ");
 }
 }	
 if (fork.equals("left")) {
-JOptionPane.showMessageDialog(null,"you continue walking and then... BAM ");	
+JOptionPane.showMessageDialog(null,"you continue walking and then... BAM you get hit by a miisle (sad ending) ");	
 }
-	
+
 	
 	
 	
