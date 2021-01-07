@@ -21,7 +21,7 @@ public class RobotColorChooser {
 		for (int i = 0; i < 100; i++) {
 			
 		
-		String bot =JOptionPane.showInputDialog("what color you want robot to draw shape?");
+		String bot =JOptionPane.showInputDialog("what color do you want robot to draw?");
 		//5. Use an if/else statement to set the pen color that the user requested
 if(bot.equals("red")){
 jeff.setPenColor(184,24,24);}
@@ -34,7 +34,11 @@ jeff.setPenColor(0,255,81);}
 else if(bot.equals("blue")){
 jeff.setPenColor(0,81,255);}
 else if(bot.equals("purple")){
-jeff.setPenColor(149,0,255);} 
+jeff.setPenColor(149,0,255);}
+else if(bot.equals("black")){
+jeff.setPenColor(0,0,0);} 
+else if(bot.equals("white")){
+jeff.setPenColor(255,255,255);} 
         //6. If the user doesn’t enter anything, choose a random color
 else{
 jeff.setRandomPenColor();}

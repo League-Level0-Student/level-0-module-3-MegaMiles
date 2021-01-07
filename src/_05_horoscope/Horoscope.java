@@ -6,7 +6,7 @@ public class Horoscope {
 public static void main(String[] args) {
 		
 	
-JOptionPane.ShowInputDialog(null,"Whats your Star sighn!");
+//I did on virtual machine and github woudnt work
 
 
 

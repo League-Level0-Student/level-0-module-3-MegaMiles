@@ -11,7 +11,7 @@ public class ObiedientRobot {
 public static void main(String[] args) {
 ObiedientRobot bob = new ObiedientRobot();  
 String shape =  JOptionPane.showInputDialog("what shape should the robot draw");	
-if(shape.equals()) {
+if(shape.equals(shape)) {
 	
 }
 }
